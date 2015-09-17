@@ -61,7 +61,11 @@ layout: default
 {% for post in site.posts %}
 
 <article class="blog-post">
-  <header class="post-header clickable" >
+    {% if forloop.first == true %}
+        <header class="post-header clickable active" >
+          {% else %}
+          <header class="post-header clickable" >
+        {% endif %}
     <h1>{{post.title}}
       <!-- insert heading here  -->
     </h1>
