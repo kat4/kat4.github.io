@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: default
 ---
 
 <div class="row">
@@ -49,14 +49,14 @@ layout: default
   </div>
 </div>
 
-<div class="row">
+<div class="row" id= "blog-sections">
   <!--centre -->
   <h2> Blog </h2>
-</div>
+
 {% for post in site.posts %}
 
 <article class="blog-post">
-  <header class="post-header">
+  <header class="post-header clickable" >
     <h1>{{post.title}}
       <!-- insert heading here  -->
     </h1>
@@ -69,3 +69,4 @@ layout: default
 </article>
 
 {% endfor %}
+</div>
