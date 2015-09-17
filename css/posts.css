@@ -1,5 +1,6 @@
 #blog-sections {
   width: 50%;
+  min-width: 450px;
   margin: 0 auto;
   text-align: justify;
 }
@@ -18,12 +19,19 @@
 .post-header.active + .post-content {
   max-height: 2000px;
 }
-#special-button {
+#special-button{
+  line-height: 2em;
+  margin-left: 2em;
+  float: left;
+  cursor: pointer;
+}
+#special-button.active #sunglasses {
   background: linear-gradient(rgba(255, 173, 0, 1), rgba(255, 255, 255, 0));
   height: 100vh;
+  width: 100vw;
   position: fixed;
+  left: 0;
   top: 0;
-  width: 100%;
 }
 #about-row {
   width: 50%;
@@ -53,7 +61,6 @@
 }
 .site-footer span {
   line-height: 2em;
-  text-align: center;
   float: right;
   margin-right: 2em;
 }

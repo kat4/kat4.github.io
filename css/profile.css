@@ -28,6 +28,7 @@ body {
 
 .profile-bio {
   display: inline-block;
+  cursor: pointer;
 }
 
 .profile-bio.active .mini-profile {
