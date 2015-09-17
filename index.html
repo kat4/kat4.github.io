@@ -65,12 +65,13 @@ layout: default
     <h1>{{post.title}}
       <!-- insert heading here  -->
     </h1>
-    <p>
-      <!-- insert sub heading here  -->{{post.content}}
+    <p class="post-subheading">
+      <!-- insert sub heading here  -->{{post.subheading}}
     </p>
   </header>
-  <!-- insert post content here -->
-
+  <div class="post-content">
+  <!-- insert post content here -->{{post.content}}
+</div>
 </article>
 
 {% endfor %}
