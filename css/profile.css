@@ -29,7 +29,7 @@ body {
 }
 
 .profile-bio.active .mini-profile {
-  width: auto;
+  width: 50%;
   float: left;
   margin-right: 0em;
 }
