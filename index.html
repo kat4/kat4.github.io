@@ -2,125 +2,50 @@
 layout: default
 ---
 
-<div class="row"> <!-- centre -->
-    <h2> What we're doing here </h2>
-    <p> Placeholder text, we're Team KAT4 and we're learning Javascript
-      as part of <a href="http://http://www.foundersandcoders.com">Founders and Coders</a>
-      6. We've been blogging about what we've been up to </p>
+<div class="row">
+  <!-- centre -->
+  <h2> What we're doing here </h2>
+  <p> Placeholder text, we're Team KAT4 and we're learning Javascript as part of <a href="http://http://www.foundersandcoders.com">Founders and Coders</a> 6. We've been blogging about what we've been up to </p>
 </div>
 
-<div class="row"> <!-- picture row, horizontal, circular pictures/border radius 50%-->
-    <div class="profile-bio">
-      <img src="url" alt="some_text">
-      <p> Kata </p>
-    </div>
-    <div class="profile-bio">
-      <img src="url" alt="some_text">
-      <p> Matt </p>
-    </div>
-    <div class="profile-bio">
-      <img src="url" alt="some_text">
-      <p> Katerina </p>
-    </div>
-    <div class="profile-bio">
-      <img src="url" alt="some_text">
-      <p> Josh <p>
-    </div>
+<div class="row">
+  <!-- picture row, horizontal, circular pictures/border radius 50%-->
+  <div class="profile-bio">
+    <img src="url" alt="some_text">
+    <p> Kata </p>
+  </div>
+  <div class="profile-bio">
+    <img src="url" alt="some_text">
+    <p> Matt </p>
+  </div>
+  <div class="profile-bio">
+    <img src="url" alt="some_text">
+    <p> Katerina </p>
+  </div>
+  <div class="profile-bio">
+    <img src="url" alt="some_text">
+    <p> Josh
+      <p>
+  </div>
 </div>
 
-<div class="row"> <!--centre -->
+<div class="row">
+  <!--centre -->
   <h2> Blog </h2>
 </div>
+{% for post in site.posts %}
 
 <article class="blog-post">
-    <header class="post-header">
-        <h1> Blog title 1 content </h1>
-        <p> Sub-title for blog placeholder-content </p>
-    </header>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eget massa at quam ultrices dapibus nec at risus. Proin lacinia purus mauris,
-          in euismod urna lobortis non. Etiam sollicitudin vitae ante ut euismod.
-          Maecenas tincidunt quis elit sit amet eleifend. Curabitur sodales, ligula in
-           scelerisque aliquam, neque enim pulvinar turpis, ut pharetra est eros in ante.
-           Praesent dictum eros ex, id cursus sem ultrices a. Duis ut leo imperdiet,
-           sollicitudin libero quis, malesuada libero. </p>
-
-        <p>Phasellus eget maximus tellus. Nullam pretium, nulla sed vestibulum
-          ornare, eros tellus euismod eros, sed efficitur ex purus eu odio. Cras
-          vehicula, mauris et auctor rhoncus, metus mauris dignissim velit, vitae
-          viverra dui tortor non erat. Nullam facilisis leo nulla, vitae varius
-          urna sagittis a. Nulla mattis quam a tincidunt congue. Suspendisse
-          bibendum nibh ut risus tincidunt lobortis. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-
-
-        <p> Mauris fermentum pharetra massa vel dapibus. Proin congue elit ut mollis
-          malesuada. Maecenas in feugiat erat. Nam vehicula sem quam, vel feugiat
-          est pharetra quis. Nam pellentesque dictum placerat. Curabitur hendrerit porta neque.
-          Donec convallis ornare quam, at fermentum sapien consectetur et.
-          Aenean vel neque risus. Morbi vel sem ac odio gravida consectetur.
-          Sed ante dolor, imperdiet ac molestie eget, auctor vitae risus. </p>
+  <header class="post-header">
+    <h1>{{post.title}}
+      <!-- insert heading here  -->
+    </h1>
+    <p>
+      <!-- insert sub heading here  -->{{post.content}}
+    </p>
+  </header>
+    <!-- insert post content here -->
 
 </article>
 
-<article class="blog-post">
-    <header class="post-header">
-        <h1> Blog content 2 </h1>
-        <p> Sub-title for blog placeholder-content </p>
-    </header>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eget massa at quam ultrices dapibus nec at risus. Proin lacinia purus mauris,
-          in euismod urna lobortis non. Etiam sollicitudin vitae ante ut euismod.
-          Maecenas tincidunt quis elit sit amet eleifend. Curabitur sodales, ligula in
-           scelerisque aliquam, neque enim pulvinar turpis, ut pharetra est eros in ante.
-           Praesent dictum eros ex, id cursus sem ultrices a. Duis ut leo imperdiet,
-           sollicitudin libero quis, malesuada libero. </p>
-
-        <p>Phasellus eget maximus tellus. Nullam pretium, nulla sed vestibulum
-          ornare, eros tellus euismod eros, sed efficitur ex purus eu odio. Cras
-          vehicula, mauris et auctor rhoncus, metus mauris dignissim velit, vitae
-          viverra dui tortor non erat. Nullam facilisis leo nulla, vitae varius
-          urna sagittis a. Nulla mattis quam a tincidunt congue. Suspendisse
-          bibendum nibh ut risus tincidunt lobortis. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-
-
-        <p> Mauris fermentum pharetra massa vel dapibus. Proin congue elit ut mollis
-          malesuada. Maecenas in feugiat erat. Nam vehicula sem quam, vel feugiat
-          est pharetra quis. Nam pellentesque dictum placerat. Curabitur hendrerit porta neque.
-          Donec convallis ornare quam, at fermentum sapien consectetur et.
-          Aenean vel neque risus. Morbi vel sem ac odio gravida consectetur.
-          Sed ante dolor, imperdiet ac molestie eget, auctor vitae risus. </p>
-
-</article>
-
-<article class="blog-post">
-    <header class="post-header">
-        <h1> Blog title content 3 placeholder </h1>
-        <p> Sub-title for blog placeholder-content </p>
-    </header>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eget massa at quam ultrices dapibus nec at risus. Proin lacinia purus mauris,
-          in euismod urna lobortis non. Etiam sollicitudin vitae ante ut euismod.
-          Maecenas tincidunt quis elit sit amet eleifend. Curabitur sodales, ligula in
-           scelerisque aliquam, neque enim pulvinar turpis, ut pharetra est eros in ante.
-           Praesent dictum eros ex, id cursus sem ultrices a. Duis ut leo imperdiet,
-           sollicitudin libero quis, malesuada libero. </p>
-
-        <p>Phasellus eget maximus tellus. Nullam pretium, nulla sed vestibulum
-          ornare, eros tellus euismod eros, sed efficitur ex purus eu odio. Cras
-          vehicula, mauris et auctor rhoncus, metus mauris dignissim velit, vitae
-          viverra dui tortor non erat. Nullam facilisis leo nulla, vitae varius
-          urna sagittis a. Nulla mattis quam a tincidunt congue. Suspendisse
-          bibendum nibh ut risus tincidunt lobortis. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-
-
-        <p> Mauris fermentum pharetra massa vel dapibus. Proin congue elit ut mollis
-          malesuada. Maecenas in feugiat erat. Nam vehicula sem quam, vel feugiat
-          est pharetra quis. Nam pellentesque dictum placerat. Curabitur hendrerit porta neque.
-          Donec convallis ornare quam, at fermentum sapien consectetur et.
-          Aenean vel neque risus. Morbi vel sem ac odio gravida consectetur.
-          Sed ante dolor, imperdiet ac molestie eget, auctor vitae risus. </p>
-
-</article>
+{% endfor %}
