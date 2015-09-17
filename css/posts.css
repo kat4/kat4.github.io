@@ -1,12 +1,47 @@
 #blog-sections {
-    width: 50%;
-    margin: 0 auto;
-    text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
 }
-
 #blog-sections img {
-    max-width: 100%;
+  max-width: 100%;
 }
 #blog-sections h1 {
-    cursor: pointer;
+  cursor: pointer;
+}
+.post-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.8s ease;
+}
+.post-header.active + .post-content {
+  max-height: 2000px;
+}
+#special-button {
+  background: linear-gradient(rgba(255, 173, 0, 1), rgba(255, 255, 255, 0));
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#about-row {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.site-header {
+  background-image: url(https://catfeeders.files.wordpress.com/2011/10/cropped-cat-header-1.jpg);
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+.site-header .wrapper {
+  width: 90%;
+  margin: auto;
+}
+.site-title {
+  color: white;
+  font-size: 6em;
+  line-height: 240px;
+  font: serif;
 }
