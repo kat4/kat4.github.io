@@ -3,6 +3,7 @@ layout: post
 title:  "Example post"
 date:   2015-09-17 21:20:36
 categories: jekyll update
+subheading: You’ll find this post in your `_posts` directory. Go ahead and edit it
 tags:
 ---
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa at quam ultrices dapibus nec at risus. Proin lacinia purus mauris, in euismod urna lobortis non. Etiam sollicitudin vitae ante ut euismod. Maecenas tincidunt quis elit sit

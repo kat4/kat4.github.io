@@ -1,0 +1,12 @@
+#blog-sections {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#blog-sections img {
+    max-width: 100%;
+}
+#blog-sections h1 {
+    cursor: pointer;
+}
