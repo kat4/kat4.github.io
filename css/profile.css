@@ -1,5 +1,38 @@
+#profile-row {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.extended-profile {
+  display: none;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.profile-bio {
+  display: inline-block;
+}
+
+.profile-bio:hover .profile-pic {border-color: #FFBA00;}
+.profile-bio:hover p {color: black; font-weight: bold;}
+
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  margin: 2em;
+  width: 13em;
+  height: 13em;
+  border-style: solid;
   border-radius: 100%;
+  border-color: #ffffff;
+  border-width: 0.3em;
+}
+
+/*.profile-pic:hover {
+  border-color: #FFBA00;
+}*/
+
+.profile-bio > p {
+  text-align: center;
+  color: #0e1717;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.4em;
 }
