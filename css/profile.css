@@ -10,6 +10,8 @@ body {
   text-align: center;
   border-top: #2f4f4f solid 0.1em ;
   border-bottom: #2f4f4f solid 0.1em;
+  overflow: auto;
+  padding-bottom: 1em;
 }
 
 .extended-profile {

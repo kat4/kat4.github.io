@@ -9,6 +9,7 @@
 #blog-sections h1 {
   cursor: pointer;
 }
+
 .post-content {
   max-height: 0px;
   overflow: hidden;
@@ -43,5 +44,16 @@
   color: white;
   font-size: 6em;
   line-height: 240px;
-  font: serif;
+  font-family: serif;
+}
+.site-footer{
+  height: 2em;
+  border-top: 1px solid #0e1717;
+  margin-top: 2em;
+}
+.site-footer span {
+  line-height: 2em;
+  text-align: center;
+  float: right;
+  margin-right: 2em;
 }
