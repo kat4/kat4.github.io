@@ -10,6 +10,8 @@ body {
   text-align: center;
   border-top: #2f4f4f solid 0.1em ;
   border-bottom: #2f4f4f solid 0.1em;
+  overflow: auto;
+  padding-bottom: 1em;
 }
 
 .extended-profile {
@@ -29,7 +31,7 @@ body {
 }
 
 .profile-bio.active .mini-profile {
-  width: auto;
+  width: 50%;
   float: left;
   margin-right: 0em;
 }
@@ -54,6 +56,13 @@ body {
 
 .profile-bio.active .profile-pic {
   border-color: #FFBA00;
+}
+
+#profile-row.active .profile-bio.active {
+    display: block;
+}
+#profile-row.active .profile-bio {
+    display: none;
 }
 
 .profile-bio.active p {
