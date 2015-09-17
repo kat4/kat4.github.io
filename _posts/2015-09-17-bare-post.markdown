@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "bare post"
+date:   2015-09-16 19:20:36
+categories: jekyll update
+tags:
+---
