@@ -56,6 +56,13 @@ body {
   border-color: #FFBA00;
 }
 
+#profile-row.active .profile-bio.active {
+    display: block;
+}
+#profile-row.active .profile-bio {
+    display: none;
+}
+
 .profile-bio.active p {
   color: black;
   font-weight: bold;
