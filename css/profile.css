@@ -15,7 +15,6 @@ body {
   text-align: center;
   border-top: #2f4f4f solid 0.1em ;
   border-bottom: #2f4f4f solid 0.1em;
-  overflow: auto;
   padding-bottom: 1em;
 }
 
@@ -32,8 +31,10 @@ body {
 }
 
 .profile-bio {
-  display: inline-block;
+  display: block;
   cursor: pointer;
+  width: 25%;
+  float: left;
 }
 
 .profile-bio.active .mini-profile {
@@ -101,4 +102,28 @@ OPTION SUNSHINE BORDER
 .mini-profile p {
   text-align: center;
   font-size: 1.4em;
+}
+
+/*
+http://stackoverflow.com/questions/12540436/height-of-parent-div-is-zero-even-if-it-has-child-with-finite-heights */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+html .clearfix {
+  height: 1%;
+}
+
+@media (max-width: 950px) {
+  .profile-bio {
+    width: 50%;
+  }
 }
