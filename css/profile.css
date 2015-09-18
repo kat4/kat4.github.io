@@ -124,3 +124,29 @@ html[xmlns] .clearfix {
     width: 50%;
   }
 }
+@media (max-width: 639px) {
+  .profile-bio {
+    width: 100%;
+  }
+  .blog-sections{
+    min-width: 300px;
+    width: 90%;
+  }
+  .profile-bio .mini-profile{
+    width: 100%;
+  }
+  .profile-bio .extended-profile{
+      width: 100%;
+      padding: 0em;
+    }
+}
+
+
+
+.profile-bio.clickable.not-act.active {
+    display: block;
+    width: 100%;
+}
+.profile-bio.clickable.not-act {
+    display: none;
+}
