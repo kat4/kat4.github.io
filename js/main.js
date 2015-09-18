@@ -2,7 +2,7 @@
 
 
   function toggleClass(elementId, className) {
-    console.log('success');
+    console.log(elementId);
     elementId.classList.toggle(className);
   }
 
@@ -14,8 +14,10 @@
   for (var i = 0; i < clickableElements.length; i++) {
     (function(index) {
       console.log(this);
-      clickableElements[index].addEventListener('click', function() {
+      clickableElements[index].addEventListener('click', function(evt) {
+        console.log("clicked on "+index)
         toggleClass(clickableElements[index], 'active');
+        //evt.stopPropagation();
       });
     }(i));
   }
