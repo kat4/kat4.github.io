@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "bare post"
+date:   2015-09-16 19:20:36
+categories: jekyll update
+subheading: You’ll find this post in your `_posts` directory. Go ahead and edit it
+tags:
+---

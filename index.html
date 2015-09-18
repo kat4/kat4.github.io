@@ -2,22 +2,124 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row" id="about-row">
+  <!-- centre -->
+  <h2> What we're doing here </h2>
+  <p> Placeholder text, we're Team KAT4 and we're learning Javascript as part of <a href="http://http://www.foundersandcoders.com">Founders and Coders</a> 6. We've been blogging about what we've been up to </p>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="row clickable" id="profile-row">
+  <!-- picture row, horizontal, circular pictures/border radius 50%-->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="profile-bio clickable">
+    <div class="mini-profile">
+      <img src="https://avatars1.githubusercontent.com/u/9272148?v=3&s=400" alt="some_text" class="profile-pic">
+      <p> Kata </p>
+    </div>
+    <div class="extended-profile">
+      <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
+        is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <div class="profile-links">
+        <a target="_blank" href="https://uk.linkedin.com/in/katakelemen">
+          <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
+        </a>
+        <a target="_blank" href="https://github.com/katkelemen">
+          <img class="medialink" src="http://cdn.flaticon.com/png/256/25231.png" alt="github" />
+        </a>
+        <a target="_blank" href="https://twitter.com/katkelemen">
+          <img class="medialink" src="http://beefadvocacy.ca/wp-content/uploads/twitter-xxl.png" alt="twitter" /> </a>
+      </div>
+    </div>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="profile-bio clickable">
+    <div class="mini-profile">
+      <img src="https://avatars2.githubusercontent.com/u/12934669?v=3&s=400" alt="some_text" class="profile-pic">
+      <p> Matt </p>
+    </div>
+    <div class="extended-profile">
+      <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
+        is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <div class="profile-links">
+        <a target="_blank" href="https://uk.linkedin.com/pub/matthew-gregory/aa/85/3b1">
+          <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
+        </a>
+        <a target="_blank" href="https://github.com/mantagen">
+          <img class="medialink" src="http://cdn.flaticon.com/png/256/25231.png" alt="github" />
+        </a>
+        <a target="_blank" href="https://twitter.com/RealGrumpyCat">
+          <img class="medialink" src="http://beefadvocacy.ca/wp-content/uploads/twitter-xxl.png" alt="twitter" /> </a>
+      </div>
+    </div>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="profile-bio clickable">
+    <div class="mini-profile">
+      <img src="https://avatars0.githubusercontent.com/u/9627463?v=3&s=400" alt="some_text" class="profile-pic">
+      <p> Katerina </p>
+    </div>
+    <div class="extended-profile">
+      <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
+        is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <div class="profile-links">
+        <a target="_blank" href=" https://uk.linkedin.com/in/katerinapascoulis">
+          <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
+        </a>
+        <a target="_blank" href="https://github.com/katpas">
+          <img class="medialink" src="http://cdn.flaticon.com/png/256/25231.png" alt="github" />
+        </a>
+        <a target="_blank" href="https://twitter.com/KatAlexPas">
+          <img class="medialink" src="http://beefadvocacy.ca/wp-content/uploads/twitter-xxl.png" alt="twitter" /> </a>
+      </div>
+    </div>
+  </div>
 
+  <div class="profile-bio clickable">
+    <div class="mini-profile">
+      <img src="https://avatars0.githubusercontent.com/u/7438594?v=3&s=400" alt="some_text" class="profile-pic">
+      <p> Josh</p>
+    </div>
+    <div class="extended-profile">
+      <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
+        is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <div class="profile-links">
+        <a target="_blank" href="https://www.linkedin.com/profile/view?id=AAMAAAQI0RcBN3snKNh0aCe2qIei_Vh6553ehbE&trk=hp-identity-photo">
+          <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
+        </a>
+        <a target="_blank" href="https://github.com/Joshua-Ronan-Phillips">
+          <img class="medialink" src="http://cdn.flaticon.com/png/256/25231.png" alt="github" />
+        </a>
+        <a target="_blank" href="https://twitter.com/joshisblonde">
+          <img class="medialink" src="http://beefadvocacy.ca/wp-content/uploads/twitter-xxl.png" alt="twitter" /> </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row" id="blog-sections">
+  <!--centre -->
+  <h2> Blog </h2>
+
+  {% for post in site.posts %}
+
+  <article class="blog-post">
+    {% if forloop.first == true %}
+    <header class="post-header clickable active">
+      {% else %}
+      <header class="post-header clickable">
+        {% endif %}
+        <h1>{{post.title}}
+          <!-- insert heading here  -->
+        </h1>
+        <em class="post-subheading">
+          <!-- insert sub heading here  -->{{post.subheading}}
+        </em>
+      </header>
+      <div class="post-content">
+        <!-- insert post content here -->{{post.content}}
+      </div>
+  </article>
+
+  {% endfor %}
 </div>
