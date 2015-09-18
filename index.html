@@ -1,24 +1,26 @@
----
-layout: default
----
+--- layout: default ---
 
+<!-- brief introduction -->
 <div class="row" id="about-row">
-  <!-- centre -->
   <h2> What we're doing here </h2>
   <p> Placeholder text, we're Team KAT4 and we're learning Javascript as part of <a href="http://www.foundersandcoders.com">Founders and Coders</a> 6. We've been blogging about what we've been up to </p>
 </div>
 
+<!-- container box for profile divs-->
 <div class="row clickable clearfix" id="profile-row">
   <!-- picture row, horizontal, circular pictures/border radius 50%-->
 
+  <!-- Kata's profile section-->
   <div class="profile-bio clickable">
     <div class="mini-profile">
       <img src="https://avatars1.githubusercontent.com/u/9272148?v=3&s=400" alt="some_text" class="profile-pic">
       <p> Kata </p>
     </div>
+    <!-- extended part of profile is visible when clicked-->
     <div class="extended-profile">
       <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
         is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <!-- social media links for profile-->
       <div class="profile-links">
         <a target="_blank" href="https://uk.linkedin.com/in/katakelemen">
           <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
@@ -32,14 +34,17 @@ layout: default
     </div>
   </div>
 
+  <!-- Matt's profile section-->
   <div class="profile-bio clickable">
     <div class="mini-profile">
       <img src="https://avatars2.githubusercontent.com/u/12934669?v=3&s=400" alt="some_text" class="profile-pic">
       <p> Matt </p>
     </div>
+    <!-- extended part of profile is visible when clicked-->
     <div class="extended-profile">
       <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
         is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <!-- social media links for profile-->
       <div class="profile-links">
         <a target="_blank" href="https://uk.linkedin.com/pub/matthew-gregory/aa/85/3b1">
           <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
@@ -53,14 +58,17 @@ layout: default
     </div>
   </div>
 
+  <!-- Katerina's profile section-->
   <div class="profile-bio clickable">
     <div class="mini-profile">
       <img src="https://avatars0.githubusercontent.com/u/9627463?v=3&s=400" alt="some_text" class="profile-pic">
       <p> Katerina </p>
     </div>
+    <!-- extended part of profile is visible when clicked-->
     <div class="extended-profile">
       <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
         is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <!-- social media links for profile-->
       <div class="profile-links">
         <a target="_blank" href=" https://uk.linkedin.com/in/katerinapascoulis">
           <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
@@ -74,14 +82,17 @@ layout: default
     </div>
   </div>
 
+  <!-- Josh's profile section-->
   <div class="profile-bio clickable">
     <div class="mini-profile">
       <img src="https://avatars0.githubusercontent.com/u/7438594?v=3&s=400" alt="some_text" class="profile-pic">
       <p> Josh</p>
     </div>
+    <!-- extended part of profile is visible when clicked-->
     <div class="extended-profile">
       <div class="description">Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata
         is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. Kata is from hungary and loves to code. </div>
+      <!-- social media links for profile-->
       <div class="profile-links">
         <a target="_blank" href="https://www.linkedin.com/profile/view?id=AAMAAAQI0RcBN3snKNh0aCe2qIei_Vh6553ehbE&trk=hp-identity-photo">
           <img class="medialink" src="http://www.wcleadership.com/wp-content/uploads/2009/04/linkedinlogo.png" alt="linked in" />
@@ -97,8 +108,9 @@ layout: default
 
 </div>
 
+<!-- blog section -->
 <div class="row" id="blog-sections">
-  <!--centre -->
+
   <h2> Blog </h2>
 
   {% for post in site.posts %}
