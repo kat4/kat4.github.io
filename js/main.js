@@ -2,7 +2,6 @@
 
 
   function toggleClass(elementId, className) {
-    console.log('success');
     elementId.classList.toggle(className);
   }
 
@@ -13,7 +12,6 @@
 
   for (var i = 0; i < clickableElements.length; i++) {
     (function(index) {
-      console.log(this);
       clickableElements[index].addEventListener('click', function() {
         toggleClass(clickableElements[index], 'active');
       });
