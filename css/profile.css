@@ -124,11 +124,3 @@ html[xmlns] .clearfix {
     width: 50%;
   }
 }
-
-.profile-bio.clickable.not-act.active {
-    display: block;
-    width: 100%;
-}
-.profile-bio.clickable.not-act {
-    display: none;
-}
