@@ -128,3 +128,8 @@ html .clearfix {
     width: 50%;
   }
 }
+@media (max-width: 639px) {
+  .profile-bio {
+    width: 100%;
+  }
+}
