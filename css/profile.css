@@ -67,6 +67,7 @@ body {
 
 #profile-row.active .profile-bio.active {
     display: block;
+    width:100%;
 }
 #profile-row.active .profile-bio {
     display: none;
