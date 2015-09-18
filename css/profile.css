@@ -1,0 +1,99 @@
+body {
+  color: #0e1717;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+#profile-row {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border-top: #2f4f4f solid 0.1em ;
+  border-bottom: #2f4f4f solid 0.1em;
+  overflow: auto;
+  padding-bottom: 1em;
+}
+
+.extended-profile {
+  display: none;
+  font-family: helvetica, arial, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.profile-links {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.profile-bio {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profile-bio.active .mini-profile {
+  width: 50%;
+  float: left;
+  margin-right: 0em;
+}
+
+.medialink {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.profile-bio.active .extended-profile{
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding-top: 6em;
+}
+
+.profile-bio.hidden {
+  display: none;
+}
+
+.profile-bio.active .profile-pic {
+  border-color: #FFBA00;
+}
+
+#profile-row.active .profile-bio.active {
+    display: block;
+}
+#profile-row.active .profile-bio {
+    display: none;
+}
+
+.profile-bio.active p {
+  color: black;
+  font-weight: bold;
+}
+
+.mini-profile:hover .profile-pic {border-color: #FFBA00;}
+.mini-profile:hover p {color: black; font-weight: bold;}
+
+.mini-profile .profile-pic {
+  margin: 2em;
+  width: 13em;
+  height: 13em;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #ffffff;
+  border-width: 0.3em;
+}
+/*
+OPTION SUNSHINE BORDER
+.mini-profile:hover .profile-pic {
+    box-shadow: 0px 0px 20px 4px #ffba00;
+}
+.mini-profile .profile-pic {
+    border-width: 0px;
+}*/
+
+
+.mini-profile p {
+  text-align: center;
+  font-size: 1.4em;
+}
