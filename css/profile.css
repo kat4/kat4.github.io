@@ -83,6 +83,14 @@ body {
   border-color: #ffffff;
   border-width: 0.3em;
 }
+/*
+OPTION SUNSHINE BORDER
+.mini-profile:hover .profile-pic {
+    box-shadow: 0px 0px 20px 4px #ffba00;
+}
+.mini-profile .profile-pic {
+    border-width: 0px;
+}*/
 
 
 .mini-profile p {
