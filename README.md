@@ -1,4 +1,4 @@
-# kat4.github.io
+# [kat4.github.io](http://kat4.github.io/)
 
 ## Hey there!
 #### Here at Kat4 we're obsessed with readability of our code. This handy README should take you through the magic behind our site. Enjoy.
